@@ -1,0 +1,41 @@
+/*Selection*/
+.selectRegistry a
+{
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 40px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: purple;
+    border-radius: 0 5px 5px 0;
+    font-size: 30px;
+}
+.selectRegistry a:hover {left: 0}
+#linkStudent {top: 200px; background-color: red;}
+#linkTeacher {top: 300px; background-color: yellow;}
+
+
+
+
+
+/*Register, Login*/
+.register, .login
+{
+    background-color: lightblue;
+    position: absolute;
+    top: 120px;
+    width: 600px;
+    left: 400px;
+    padding: 40px;
+}
+.register input, .login input
+{
+    width: 400px;
+    padding: 10px;
+    font-size: 20px;
+}
+.register p, .login p {font-size: 25px}
+.register h1, .login h1 {text-align: center}
+

@@ -1,0 +1,75 @@
+body {
+    background-color: #282828;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.btn.dropdown-toggle  {
+    width:150px;
+    text-align:left;
+}
+
+span.caret {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
+
+label {
+    padding-top:5px;
+}
+
+.form-label {
+    padding-left:0px !important;
+}
+
+img {
+    width:140px;
+    height:140px;
+}
+
+
+.btn-success {
+    background-color: #3b7d4a!important;
+}
+
+.btn-success:hover {
+    background-color: #4daf64!important;
+}
+
+img.track {
+    border: 1px solid #8a8a8a;
+}
+
+.song-row {
+    margin-bottom: 10px;
+  }
+  
+  .song-list .list-group-item {
+    border-radius: 0;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .song-list .list-group-item:hover {
+    background-color: #ddd;
+  }
+  
+  .song-list .list-group-item:nth-child(odd) {
+    margin-right: 10px;
+  }
+  
+  .song-list .list-group-item:nth-child(even) {
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 576px) {
+    .song-list .list-group-item:nth-child(odd),
+    .song-list .list-group-item:nth-child(even) {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
